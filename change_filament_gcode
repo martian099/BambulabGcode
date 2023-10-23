@@ -127,9 +127,15 @@ G1 X90 F3000
 G1 Y255 F4000
 G1 X100 F5000
 G1 Y265 F5000
-G1 X70 F10000
-G1 X100 F5000
-G1 X70 F10000
+
+G1 X70 F15000 ; Alex: wipe
+G1 X100 F5000 ; Alex: wipe
+G1 X70 F15000 ; Alex: wipe
+G1 X100 F5000 ; Alex: wipe
+G1 X70 F15000 ; Alex: wipe
+G1 X100 F5000 ; Alex: wipe
+G1 X70 F15000 ; Alex: wipe
+
 G1 X100 F5000
 G1 X165 F15000; wipe and shake
 G1 Y256 ; move Y to aside, prevent collision
