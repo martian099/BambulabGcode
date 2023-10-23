@@ -18,6 +18,12 @@ M104 S[old_filament_temp]
 G1 X90 F3000
 G1 Y255 F4000
 G1 X100 F5000
+
+G1 X70 F10000 ; Alex: wipe
+G1 X100 F5000 ; Alex: wipe
+G1 X70 F10000 ; Alex: wipe
+G1 X100 F5000 ; Alex: wipe
+
 G1 X120 F15000
 
 G1 X20 Y50 F21000
