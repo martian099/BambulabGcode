@@ -22,12 +22,6 @@ T255
 G1 X65 F12000
 G1 Y265
 G1 X100 F12000 ; wipe
-
-G1 X70 F10000 ; Alex: wipe at the end
-G1 X100 F5000 ; Alex: wipe at the end
-G1 X70 F10000 ; Alex: wipe at the end
-G1 X100 F12000 ; Alex: wipe at the end
-
 M621 S255
 M104 S0 ; turn off hotend
 
